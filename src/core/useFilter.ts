@@ -7,7 +7,7 @@ export function useFilter<T>(data: T[], getName: (item: T) => string) {
     const filtered = React.useMemo(() => {
         const searched = data.filter(i => {
             const name = getName(i);
-            const search = query?.search?.trim();
+            const search = query?.search?.trim().toLowerCase();
             const found = search ? name.toLowerCase().search(search) >= 0 : true;
             return found;
         });
