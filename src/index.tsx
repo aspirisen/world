@@ -15,3 +15,5 @@ console.log(9998);
 
 console.log(6);
 console.log(9992228);
+console.log(6);
+console.log(99922281111);
