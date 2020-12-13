@@ -10,6 +10,8 @@ import { Country } from "./routes/Country";
 import { ErrorMessage } from "./components/ErrorMessage";
 import { LoadingBlocker } from "./components/LoadingBlocker";
 
+console.log("helslsso");
+
 export const App = React.memo(() => {
   const { countries, hasError, isLoading } = useApi();
 
@@ -36,13 +38,11 @@ export const App = React.memo(() => {
   );
 });
 
-
 console.log(1);
 console.log(2);
 console.log(3);
 
-
-console.log('a');
-console.log('b');
-console.log('c');
-console.log('ccc');
+console.log("a");
+console.log("b");
+console.log("c");
+console.log("ccc");
