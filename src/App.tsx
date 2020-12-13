@@ -10,7 +10,7 @@ import { Country } from "./routes/Country";
 import { ErrorMessage } from "./components/ErrorMessage";
 import { LoadingBlocker } from "./components/LoadingBlocker";
 
-console.log("helslsso");
+console.log("helslsso111");
 
 export const App = React.memo(() => {
   const { countries, hasError, isLoading } = useApi();
